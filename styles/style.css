@@ -119,7 +119,7 @@ ol {
   width: 15px;
   height: 15px;
   background: rgba(255, 255, 255);
-  appearance: none; 
+  appearance: none;
 }
 
 .search-form__label {
@@ -141,7 +141,7 @@ ol {
   outline-offset: 2px;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -262,7 +262,6 @@ ol {
 
 .content__card-link:first-child {
   margin-top: 2px;
-  
 }
 
 .content__card-link:focus {
@@ -278,11 +277,11 @@ ol {
 }
 
 .content__card-link:focus-visible {
-  outline: 1px;px solid rgba(255, 255, 255, 1);
+  outline: 1px solid rgba(255, 255, 255, 1);
 }
 
-.content__card-link:current {
-  background: #545050;
+.content__card-link_current:active {
+  background-color: #545050;
 }
 
 .content__video-card {
@@ -303,7 +302,7 @@ ol {
   padding-top: 2px;
   padding-bottom: 6px;
   overflow: hidden;
-  color:rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
